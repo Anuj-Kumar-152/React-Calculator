@@ -58,7 +58,7 @@ function Calculator() {
                   <button
                      key={index}
                      onClick={() => handleClick(btn)}
-                     className={`p-3 rounded-lg shadow-sm transition duration-200 ${getButtonStyle(btn)} ${btn === "0" ? "col-span-2" : ""
+                     className={`p-3 cursor-pointer rounded-lg shadow-sm transition duration-200 ${getButtonStyle(btn)} ${btn === "0" ? "col-span-2" : ""
                         }`}
                   >
                      {btn}
